@@ -5,11 +5,21 @@
   </Configs>
   <NewExtensions/>
   <sounds name="sound"/>
-  <sprites name="sprites"/>
+  <sprites name="sprites">
+    <sprite>sprites\spr_Vul</sprite>
+  </sprites>
   <backgrounds name="background"/>
   <paths name="paths"/>
+  <scripts name="scripts">
+    <script>scripts\Card.gml</script>
+    <script>scripts\script1.gml</script>
+    <script>scripts\script2.gml</script>
+    <script>scripts\scr_Player.gml</script>
+  </scripts>
   <objects name="objects">
-    <object>objects\punchCard</object>
+    <object>objects\obj_Card</object>
+    <object>objects\obj_Player</object>
+    <object>objects\obj_Deck</object>
   </objects>
   <rooms name="rooms">
     <room>rooms\room1</room>
